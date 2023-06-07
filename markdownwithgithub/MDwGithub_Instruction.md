@@ -135,11 +135,11 @@ file.md
 **上传文件**
 
 ```
-# 将所有文件添加到本地缓存
+# 将当前目录下所有文件添加到暂存区
 githuy@CNL21018 MINGW64 ~/new_notes/reading (main)
 $ git add .
 
-# 将所有文件添加到本地repo
+# 将暂存区的文件添加到本地git repo
 huy@CNL21018 MINGW64 ~/new_notes/reading (main)
 $ git commit -m "updated the file"
 [main (root-commit) d56a412] updated the file
@@ -159,7 +159,7 @@ After doing this, you may fix the identity used for this commit with:
  1 file changed, 6 insertions(+)
  create mode 100644 reading/file.md
 
-# 将所有文件推送到远端repo
+# 将本地repo的文件推送到远端repo
 huy@CNL21018 MINGW64 ~/new_notes/reading (main)
 $ git push
 Enumerating objects: 4, done.
